@@ -1,0 +1,2811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SASReport applicationName="Report Control" applicationVersion="7.100.5.0" dateCreated="2018-08-22T22:28:28+02:00" dateModified="2018-08-22T22:29:15+02:00" version="1.2" xmlns:style="http://www.sas.com/sasreportmodel/styles">
+	<View style:scheme="HTMLBlue" style:style="body" generated="false">
+		<PageSetup marginLeft="1in" marginRight="1in" marginTop="1in" marginBottom="1in" startingNumber="1" generated="false">
+			<PageHeader generated="false">
+				<Text generated="false" style:textAlign="right">
+					<GriddedConstraint />
+					<PageNumber generated="false">
+					</PageNumber>
+				</Text>
+			</PageHeader>
+		</PageSetup>
+		<Section generated="false">
+			<Body generated="false" style:paddingBottom="10px">
+				<GriddedLayout rowGutter="10px" />
+				<SASProcessContainer label="Kod dla Regresja logistyczna wielomianowa 1" generated="false" name="ODSResult-NaFNf84PRmQyXaYz">
+					<GriddedConstraint row="1" column="1" valign="top" />
+					<GriddedLayout />
+					<Container generated="false" name="Logistic_1">
+						<GriddedConstraint row="1" column="1" valign="top" />
+						<GriddedLayout />
+						<Container generated="false" style:pageBreakAfter="always">
+							<GriddedConstraint row="1" column="1" valign="top" />
+							<GriddedLayout />
+							<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+								<GriddedConstraint row="1" column="1" valign="top" />
+								<GriddedLayout rowGutter="10px" columnGutter="10px" />
+								<Text style:style="systemtitle" style:textAlign="center" style:verticalAlign="middle">
+									<GriddedConstraint row="1" column="1" valign="top" />
+									<Span style:style="systemtitle" style:textAlign="center">Rezultaty regresji logistycznej</Span>
+								</Text>
+							</Container>
+							<Container generated="false">
+								<GriddedConstraint row="2" column="1" valign="top" />
+								<GriddedLayout />
+								<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+									<GriddedConstraint row="1" column="1" valign="top" />
+									<GriddedLayout rowGutter="10px" columnGutter="10px" />
+									<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<Span style:style="proctitle">Procedura LOGISTIC</Span>
+<Br />									</Text>
+								</Container>
+								<Container generated="false" style:paddingBottom="10px" name="Body">
+									<GriddedConstraint row="2" column="1" valign="top" />
+									<GriddedLayout rowGutter="10px" />
+									<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_001" style:style="table" name="Informacje o modelu">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<Columns order="specified">
+											<Columns order="specified">
+												<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Informacje o modelu</Label>
+												<Column variable="Label1" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cValue1" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="left">
+													</Cell>
+												</Column>
+											</Columns>
+										</Columns>
+									</Table>
+									<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_002" style:style="table" name="Podsumowanie obserwacji">
+										<GriddedConstraint row="2" column="1" valign="top" />
+										<Columns order="specified">
+											<Column variable="Label" style:style="rowheader">
+												<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+												<Cell style:style="rowheader" style:textAlign="left">
+												</Cell>
+											</Column>
+											<Column variable="N" style:style="data">
+												<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+												<Cell style:style="data" style:textAlign="right">
+												</Cell>
+											</Column>
+										</Columns>
+									</Table>
+									<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_003" style:style="table" name="Profile odpowiedzi">
+										<GriddedConstraint row="3" column="1" valign="top" />
+										<Columns order="specified">
+											<Columns order="specified">
+												<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Profil odpowiedzi</Label>
+												<Column variable="OrderedValue" style:style="rowheader">
+													<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Wartość<Br />uporządkowana</Label>
+													<Cell style:style="rowheader" style:textAlign="right">
+													</Cell>
+												</Column>
+												<Column variable="Outcome" style:style="data">
+													<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">price_quantile</Label>
+													<Cell style:style="data" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="Count" style:style="data">
+													<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Całkowita<Br />liczebność</Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+											</Columns>
+										</Columns>
+									</Table>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="3" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle" name="Profile odpowiedzi">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="proctitle">Modelowane logity używają price_quantile='low-cost' jako kategorii odniesienia.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="4" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="proctitle">Procedura selekcji krokowej<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ClassLevelInfo">
+									<GriddedConstraint row="5" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_004" style:style="table" name="Informacje o poziomach klasyfikacji">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Informacje o poziomach klasyfikacji</Label>
+													<Column variable="Class" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Klasa</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="Value" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Wartość</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Columns order="specified">
+														<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Zmienne planu</Label>
+														<Column variable="designvar" style:style="data">
+															<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+															<Cell style:style="data" style:textAlign="right">
+															</Cell>
+														</Column>
+														<Column variable="designvar_2" style:style="data">
+															<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+															<Cell style:style="data" style:textAlign="right">
+															</Cell>
+														</Column>
+													</Columns>
+												</Columns>
+											</Columns>
+										</Table>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="6" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle" name="Etap 0">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="proctitle">Etap  0. Wpisano wyrazy wolne.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ConvergenceStatus">
+									<GriddedConstraint row="7" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_005" style:style="table" name="Etap 0,Status zbieżności">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Status zbieżności</Label>
+													<Column variable="Reason" style:style="data">
+														<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+														<Cell style:style="data" style:textAlign="center">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_006" style:style="table" name="Etap 0,Statystyki dopasowania">
+											<GriddedConstraint row="2" column="1" valign="top" />
+											<Columns order="specified">
+												<Column variable="Criterion" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="Equals" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="InterceptAndCovariates" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="left">
+													</Cell>
+												</Column>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_007" style:style="table" name="Etap 0,Chi-kwadrat reszt">
+											<GriddedConstraint row="3" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Test resztowy chi-kwadrat</Label>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="8" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle" name="Etap 1">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="proctitle">Etap  1. Wstawiono efekt room_type:<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ConvergenceStatus">
+									<GriddedConstraint row="9" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_008" style:style="table" name="Etap 1,Status zbieżności">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Status zbieżności</Label>
+													<Column variable="Reason" style:style="data">
+														<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+														<Cell style:style="data" style:textAlign="center">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_009" style:style="table" name="Etap 1,Statystyki dopasowania">
+											<GriddedConstraint row="2" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Statystyki dopasowania</Label>
+													<Column variable="Criterion" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Kryterium</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="InterceptOnly" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Tylko wyraz wolny</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="InterceptAndCovariates" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Wyraz wolny i współzmienne</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_010" style:style="table" name="Etap 1,R-kwadrat i maksymalnie przeskalowane R-kwadrat">
+											<GriddedConstraint row="3" column="1" valign="top" />
+											<Columns order="specified">
+												<Column variable="label1" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue1" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+												<Column variable="label2" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue2" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_011" style:style="table" name="Etap 1,Testy globalne">
+											<GriddedConstraint row="4" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Testowanie globalnej hipotezy zerowej: BETA=0</Label>
+													<Column variable="Test" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Test</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_012" style:style="table" name="Etap 1,Chi-kwadrat reszt">
+											<GriddedConstraint row="5" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Test resztowy chi-kwadrat</Label>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="10" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="notecontent" style:textAlign="center" style:verticalAlign="middle" name="Etap 1">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="notecontent">Note: No effects for the model in Step 1 are removed.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="11" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle" name="Etap 2">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="proctitle">Etap  2. Wstawiono efekt accommodates:<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ConvergenceStatus">
+									<GriddedConstraint row="12" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_013" style:style="table" name="Etap 2,Status zbieżności">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Status zbieżności</Label>
+													<Column variable="Reason" style:style="data">
+														<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+														<Cell style:style="data" style:textAlign="center">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_014" style:style="table" name="Etap 2,Statystyki dopasowania">
+											<GriddedConstraint row="2" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Statystyki dopasowania</Label>
+													<Column variable="Criterion" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Kryterium</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="InterceptOnly" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Tylko wyraz wolny</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="InterceptAndCovariates" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Wyraz wolny i współzmienne</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_015" style:style="table" name="Etap 2,R-kwadrat i maksymalnie przeskalowane R-kwadrat">
+											<GriddedConstraint row="3" column="1" valign="top" />
+											<Columns order="specified">
+												<Column variable="label1" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue1" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+												<Column variable="label2" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue2" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_016" style:style="table" name="Etap 2,Testy globalne">
+											<GriddedConstraint row="4" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Testowanie globalnej hipotezy zerowej: BETA=0</Label>
+													<Column variable="Test" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Test</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_017" style:style="table" name="Etap 2,Chi-kwadrat reszt">
+											<GriddedConstraint row="5" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Test resztowy chi-kwadrat</Label>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="13" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="notecontent" style:textAlign="center" style:verticalAlign="middle" name="Etap 2">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="notecontent">Note: No effects for the model in Step 2 are removed.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="14" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle" name="Etap 3">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="proctitle">Etap  3. Wstawiono efekt reviews_per_month:<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ConvergenceStatus">
+									<GriddedConstraint row="15" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_018" style:style="table" name="Etap 3,Status zbieżności">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Status zbieżności</Label>
+													<Column variable="Reason" style:style="data">
+														<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+														<Cell style:style="data" style:textAlign="center">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_019" style:style="table" name="Etap 3,Statystyki dopasowania">
+											<GriddedConstraint row="2" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Statystyki dopasowania</Label>
+													<Column variable="Criterion" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Kryterium</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="InterceptOnly" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Tylko wyraz wolny</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="InterceptAndCovariates" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Wyraz wolny i współzmienne</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_020" style:style="table" name="Etap 3,R-kwadrat i maksymalnie przeskalowane R-kwadrat">
+											<GriddedConstraint row="3" column="1" valign="top" />
+											<Columns order="specified">
+												<Column variable="label1" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue1" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+												<Column variable="label2" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue2" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_021" style:style="table" name="Etap 3,Testy globalne">
+											<GriddedConstraint row="4" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Testowanie globalnej hipotezy zerowej: BETA=0</Label>
+													<Column variable="Test" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Test</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_022" style:style="table" name="Etap 3,Chi-kwadrat reszt">
+											<GriddedConstraint row="5" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Test resztowy chi-kwadrat</Label>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="16" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="notecontent" style:textAlign="center" style:verticalAlign="middle" name="Etap 3">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="notecontent">Note: No effects for the model in Step 3 are removed.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="17" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle" name="Etap 4">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="proctitle">Etap  4. Wstawiono efekt bathrooms:<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ConvergenceStatus">
+									<GriddedConstraint row="18" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_023" style:style="table" name="Etap 4,Status zbieżności">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Status zbieżności</Label>
+													<Column variable="Reason" style:style="data">
+														<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+														<Cell style:style="data" style:textAlign="center">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_024" style:style="table" name="Etap 4,Statystyki dopasowania">
+											<GriddedConstraint row="2" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Statystyki dopasowania</Label>
+													<Column variable="Criterion" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Kryterium</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="InterceptOnly" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Tylko wyraz wolny</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="InterceptAndCovariates" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Wyraz wolny i współzmienne</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_025" style:style="table" name="Etap 4,R-kwadrat i maksymalnie przeskalowane R-kwadrat">
+											<GriddedConstraint row="3" column="1" valign="top" />
+											<Columns order="specified">
+												<Column variable="label1" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue1" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+												<Column variable="label2" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue2" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_026" style:style="table" name="Etap 4,Testy globalne">
+											<GriddedConstraint row="4" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Testowanie globalnej hipotezy zerowej: BETA=0</Label>
+													<Column variable="Test" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Test</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_027" style:style="table" name="Etap 4,Chi-kwadrat reszt">
+											<GriddedConstraint row="5" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Test resztowy chi-kwadrat</Label>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="19" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="notecontent" style:textAlign="center" style:verticalAlign="middle" name="Etap 4">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="notecontent">Note: No effects for the model in Step 4 are removed.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="20" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle" name="Etap 5">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="proctitle">Etap  5. Wstawiono efekt distance:<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ConvergenceStatus">
+									<GriddedConstraint row="21" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_028" style:style="table" name="Etap 5,Status zbieżności">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Status zbieżności</Label>
+													<Column variable="Reason" style:style="data">
+														<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+														<Cell style:style="data" style:textAlign="center">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_029" style:style="table" name="Etap 5,Statystyki dopasowania">
+											<GriddedConstraint row="2" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Statystyki dopasowania</Label>
+													<Column variable="Criterion" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Kryterium</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="InterceptOnly" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Tylko wyraz wolny</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="InterceptAndCovariates" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Wyraz wolny i współzmienne</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_030" style:style="table" name="Etap 5,R-kwadrat i maksymalnie przeskalowane R-kwadrat">
+											<GriddedConstraint row="3" column="1" valign="top" />
+											<Columns order="specified">
+												<Column variable="label1" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue1" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+												<Column variable="label2" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue2" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_031" style:style="table" name="Etap 5,Testy globalne">
+											<GriddedConstraint row="4" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Testowanie globalnej hipotezy zerowej: BETA=0</Label>
+													<Column variable="Test" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Test</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_032" style:style="table" name="Etap 5,Chi-kwadrat reszt">
+											<GriddedConstraint row="5" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Test resztowy chi-kwadrat</Label>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="22" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="notecontent" style:textAlign="center" style:verticalAlign="middle" name="Etap 5">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="notecontent">Note: No effects for the model in Step 5 are removed.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="23" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle" name="Etap 6">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="proctitle">Etap  6. Wstawiono efekt bathrooms*room_type:<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ConvergenceStatus">
+									<GriddedConstraint row="24" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_033" style:style="table" name="Etap 6,Status zbieżności">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Status zbieżności</Label>
+													<Column variable="Reason" style:style="data">
+														<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+														<Cell style:style="data" style:textAlign="center">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_034" style:style="table" name="Etap 6,Statystyki dopasowania">
+											<GriddedConstraint row="2" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Statystyki dopasowania</Label>
+													<Column variable="Criterion" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Kryterium</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="InterceptOnly" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Tylko wyraz wolny</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="InterceptAndCovariates" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Wyraz wolny i współzmienne</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_035" style:style="table" name="Etap 6,R-kwadrat i maksymalnie przeskalowane R-kwadrat">
+											<GriddedConstraint row="3" column="1" valign="top" />
+											<Columns order="specified">
+												<Column variable="label1" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue1" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+												<Column variable="label2" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue2" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_036" style:style="table" name="Etap 6,Testy globalne">
+											<GriddedConstraint row="4" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Testowanie globalnej hipotezy zerowej: BETA=0</Label>
+													<Column variable="Test" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Test</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_037" style:style="table" name="Etap 6,Chi-kwadrat reszt">
+											<GriddedConstraint row="5" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Test resztowy chi-kwadrat</Label>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="25" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="notecontent" style:textAlign="center" style:verticalAlign="middle" name="Etap 6">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="notecontent">Note: No effects for the model in Step 6 are removed.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="26" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle" name="Etap 7">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="proctitle">Etap  7. Wstawiono efekt cancellation_policy:<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ConvergenceStatus">
+									<GriddedConstraint row="27" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_038" style:style="table" name="Etap 7,Status zbieżności">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Status zbieżności</Label>
+													<Column variable="Reason" style:style="data">
+														<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+														<Cell style:style="data" style:textAlign="center">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_039" style:style="table" name="Etap 7,Statystyki dopasowania">
+											<GriddedConstraint row="2" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Statystyki dopasowania</Label>
+													<Column variable="Criterion" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Kryterium</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="InterceptOnly" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Tylko wyraz wolny</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="InterceptAndCovariates" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Wyraz wolny i współzmienne</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_040" style:style="table" name="Etap 7,R-kwadrat i maksymalnie przeskalowane R-kwadrat">
+											<GriddedConstraint row="3" column="1" valign="top" />
+											<Columns order="specified">
+												<Column variable="label1" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue1" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+												<Column variable="label2" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue2" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_041" style:style="table" name="Etap 7,Testy globalne">
+											<GriddedConstraint row="4" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Testowanie globalnej hipotezy zerowej: BETA=0</Label>
+													<Column variable="Test" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Test</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_042" style:style="table" name="Etap 7,Chi-kwadrat reszt">
+											<GriddedConstraint row="5" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Test resztowy chi-kwadrat</Label>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="28" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="notecontent" style:textAlign="center" style:verticalAlign="middle" name="Etap 7">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="notecontent">Note: No effects for the model in Step 7 are removed.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="29" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle" name="Etap 8">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="proctitle">Etap  8. Wstawiono efekt instant_bookable:<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ConvergenceStatus">
+									<GriddedConstraint row="30" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_043" style:style="table" name="Etap 8,Status zbieżności">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Status zbieżności</Label>
+													<Column variable="Reason" style:style="data">
+														<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+														<Cell style:style="data" style:textAlign="center">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_044" style:style="table" name="Etap 8,Statystyki dopasowania">
+											<GriddedConstraint row="2" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Statystyki dopasowania</Label>
+													<Column variable="Criterion" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Kryterium</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="InterceptOnly" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Tylko wyraz wolny</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="InterceptAndCovariates" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Wyraz wolny i współzmienne</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_045" style:style="table" name="Etap 8,R-kwadrat i maksymalnie przeskalowane R-kwadrat">
+											<GriddedConstraint row="3" column="1" valign="top" />
+											<Columns order="specified">
+												<Column variable="label1" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue1" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+												<Column variable="label2" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue2" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_046" style:style="table" name="Etap 8,Testy globalne">
+											<GriddedConstraint row="4" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Testowanie globalnej hipotezy zerowej: BETA=0</Label>
+													<Column variable="Test" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Test</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_047" style:style="table" name="Etap 8,Chi-kwadrat reszt">
+											<GriddedConstraint row="5" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Test resztowy chi-kwadrat</Label>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="31" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="notecontent" style:textAlign="center" style:verticalAlign="middle" name="Etap 8">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="notecontent">Note: No effects for the model in Step 8 are removed.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="32" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="proctitle" style:textAlign="center" style:verticalAlign="middle" name="Etap 9">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="proctitle">Etap  9. Wstawiono efekt host_is_superhost:<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ConvergenceStatus">
+									<GriddedConstraint row="33" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_048" style:style="table" name="Etap 9,Status zbieżności">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Status zbieżności</Label>
+													<Column variable="Reason" style:style="data">
+														<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+														<Cell style:style="data" style:textAlign="center">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_049" style:style="table" name="Etap 9,Statystyki dopasowania">
+											<GriddedConstraint row="2" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Statystyki dopasowania</Label>
+													<Column variable="Criterion" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Kryterium</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="InterceptOnly" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Tylko wyraz wolny</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="InterceptAndCovariates" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Wyraz wolny i współzmienne</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_050" style:style="table" name="Etap 9,R-kwadrat i maksymalnie przeskalowane R-kwadrat">
+											<GriddedConstraint row="3" column="1" valign="top" />
+											<Columns order="specified">
+												<Column variable="label1" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue1" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+												<Column variable="label2" style:style="rowheader">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="left" style:verticalAlign="bottom"></Label>
+													<Cell style:style="rowheader" style:textAlign="left">
+													</Cell>
+												</Column>
+												<Column variable="cvalue2" style:style="data">
+													<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="right" style:verticalAlign="bottom"></Label>
+													<Cell style:style="data" style:textAlign="right">
+													</Cell>
+												</Column>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_051" style:style="table" name="Etap 9,Testy globalne">
+											<GriddedConstraint row="4" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Testowanie globalnej hipotezy zerowej: BETA=0</Label>
+													<Column variable="Test" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Test</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="ChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="34" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="notecontent" style:textAlign="center" style:verticalAlign="middle" name="Etap 9">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="notecontent">Note: No effects for the model in Step 9 are removed.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="35" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="notecontent" style:textAlign="center" style:verticalAlign="middle" name="Etap 9">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Span style:style="notecontent">Note: All effects have been entered into the model.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ModelBuildingSummary">
+									<GriddedConstraint row="36" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_052" style:style="table" name="Podsumowanie budowy modelu">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Podsumowanie selekcji krokowej</Label>
+													<Column variable="Step" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Krok</Label>
+														<Cell style:style="rowheader" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Columns order="specified">
+														<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Efekt</Label>
+														<Column variable="EffectEntered" style:style="rowheader">
+															<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Wstawione</Label>
+															<Cell style:style="rowheader" style:textAlign="left">
+															</Cell>
+														</Column>
+														<Column variable="EffectRemoved" style:style="rowheader">
+															<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Usunięte</Label>
+															<Cell style:style="rowheader" style:textAlign="left">
+															</Cell>
+														</Column>
+													</Columns>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="NumberInModel" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Liczba<Br />  w  </Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ScoreChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat<Br />punktacji</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="WaldChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat<Br />Walda</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_053" style:style="table" name="Testy typu 3 lub łączne">
+											<GriddedConstraint row="2" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Testy łączne</Label>
+													<Column variable="Effect" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Efekt</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="WaldChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat<Br />Walda</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+									</Container>
+								</Container>
+								<Container generated="false">
+									<GriddedConstraint row="37" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:display="" style:paddingBottom="10px" name="Header">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" columnGutter="10px" />
+										<Text style:style="notecontent" style:textAlign="left" style:verticalAlign="middle" name="Testy typu 3 lub łączne">
+											<GriddedConstraint row="1" column="1" halign="left" valign="top" />
+											<Span style:style="notecontent">Note: Under full-rank parameterizations, Type 3 effect tests are replaced by joint tests. The joint test for an effect is a test that all the parameters associated with that effect are zero. Such joint tests might not be equivalent to Type 3 effect tests under GLM parameterization.<Br /></Span>
+										</Text>
+									</Container>
+								</Container>
+								<Container generated="false" name="ParameterEstimates">
+									<GriddedConstraint row="38" column="1" valign="top" />
+									<GriddedLayout />
+									<Container generated="false" style:paddingBottom="10px" name="Body">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<GriddedLayout rowGutter="10px" />
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_054" style:style="table" name="Oceny parametrów">
+											<GriddedConstraint row="1" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Analiza ocen maksymalnej wiarygodności</Label>
+													<Column variable="Variable" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Parametr</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="GenericClassValue" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom"> </Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="Response" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">price_quantile</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="DF" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">DF</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="Estimate" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Ocena</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="StdErr" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Błąd<Br />standardowy</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="WaldChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Chi-kwadrat<Br />Walda</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Column variable="ProbChiSq" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Pr. &gt; chi-kw.</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+												</Columns>
+											</Columns>
+										</Table>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_055" style:style="table" name="Ilorazy szans">
+											<GriddedConstraint row="2" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Oceny ilorazu szans</Label>
+													<Column variable="Effect" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Efekt</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="Response" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">price_quantile</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="OddsRatioEst" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Wynik punktowy</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Columns order="specified">
+														<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Przedział ufności<Br />Walda 95%</Label>
+														<Column variable="LowerCL" style:style="data">
+															<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+															<Cell style:style="data" style:textAlign="right">
+															</Cell>
+														</Column>
+														<Column variable="UpperCL" style:style="data">
+															<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+															<Cell style:style="data" style:textAlign="right">
+															</Cell>
+														</Column>
+													</Columns>
+												</Columns>
+											</Columns>
+										</Table>
+										<Image file="Raport SAS-owy - Kod dla Regresja logistyczna  (12)_files\img0.png" alternateText="Plot of Ilorazy szans z przedziałem ufności Walda 95%" style:height="480px" style:width="640px">
+											<GriddedConstraint row="3" column="1" valign="top" />
+										</Image>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_056" style:style="table" name="Ilorazy szans,Ilorazy szans CL=Wald">
+											<GriddedConstraint row="4" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Oceny ilorazów szans i przedziały ufności Walda</Label>
+													<Columns order="specified">
+														<Label position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Iloraz szans</Label>
+														<Column variable="Effect" style:style="rowheader">
+															<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+															<Cell style:style="rowheader" style:textAlign="left">
+															</Cell>
+														</Column>
+													</Columns>
+													<Column variable="OddsRatioEst" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Ocena</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Columns order="specified">
+														<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Przedział ufności 95%</Label>
+														<Column variable="LowerCL" style:style="data">
+															<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+															<Cell style:style="data" style:textAlign="right">
+															</Cell>
+														</Column>
+														<Column variable="UpperCL" style:style="data">
+															<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+															<Cell style:style="data" style:textAlign="right">
+															</Cell>
+														</Column>
+													</Columns>
+												</Columns>
+											</Columns>
+										</Table>
+										<Image file="Raport SAS-owy - Kod dla Regresja logistyczna  (12)_files\img1.png" alternateText="Plot of Ilorazy szans z przedziałem ufności Walda 95%" style:height="480px" style:width="640px">
+											<GriddedConstraint row="5" column="1" valign="top" />
+										</Image>
+										<Table cellPadding="5px" data="ODSResult_NaFNf84PRmQyXaYz_057" style:style="table" name="95% Clparm=Wald">
+											<GriddedConstraint row="6" column="1" valign="top" />
+											<Columns order="specified">
+												<Columns order="specified">
+													<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Oceny parametrów i przedziały ufności Walda</Label>
+													<Column variable="Parameter" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">Parametr</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="GenericClassValue" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom"> </Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="Response" style:style="rowheader">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="left" style:verticalAlign="bottom">price_quantile</Label>
+														<Cell style:style="rowheader" style:textAlign="left">
+														</Cell>
+													</Column>
+													<Column variable="Estimate" style:style="data">
+														<Label isStacked="false" position="top" style:style="header" style:textAlign="right" style:verticalAlign="bottom">Ocena</Label>
+														<Cell style:style="data" style:textAlign="right">
+														</Cell>
+													</Column>
+													<Columns order="specified">
+														<Label position="top" style:style="header" style:textAlign="center" style:verticalAlign="bottom">Przedział ufności 95%</Label>
+														<Column variable="LowerCL" style:style="data">
+															<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+															<Cell style:style="data" style:textAlign="right">
+															</Cell>
+														</Column>
+														<Column variable="UpperCL" style:style="data">
+															<Label isVisible="false" isStacked="false" position="top" style:style="headerempty" style:textAlign="center" style:verticalAlign="bottom"></Label>
+															<Cell style:style="data" style:textAlign="right">
+															</Cell>
+														</Column>
+													</Columns>
+												</Columns>
+											</Columns>
+										</Table>
+										<Image file="Raport SAS-owy - Kod dla Regresja logistyczna  (12)_files\img2.png" alternateText="Wykres Przewidywane prawdopodobieństwa price_quantile od reviews_per_month, wycinkowo wg price_quantile, przy room_type=Entire home/apt host_is_superhost=f instant_bookable=f cancellation_policy=strict_14+ distance=8.455 accommodates=3.632 bathrooms=1.324." style:height="480px" style:width="640px">
+											<GriddedConstraint row="7" column="1" valign="top" />
+										</Image>
+									</Container>
+								</Container>
+								<Container generated="false" style:display="" style:paddingBottom="10px" style:textAlign="center" name="Footer">
+									<GriddedConstraint row="39" column="1" valign="top" />
+									<GriddedLayout rowGutter="10px" columnGutter="10px" />
+									<Text style:style="systemfooter" style:textAlign="center" style:verticalAlign="middle">
+										<GriddedConstraint row="1" column="1" valign="top" />
+										<Span style:style="systemfooter" style:textAlign="center">Wygenerowane przez System SAS ('Local', X64_8HOME) dnia 22 sierpnia 2018 o godz. 08:26:05 PM</Span>
+									</Text>
+								</Container>
+							</Container>
+						</Container>
+					</Container>
+					<Parameters>
+					</Parameters>
+					<Procedures>
+					</Procedures>
+				</SASProcessContainer>
+			</Body>
+		</Section>
+	</View>
+	<Data>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_001">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Label1">
+					</Variable>
+					<Variable encoding="text" name="cValue1">
+					</Variable>
+				</Variables>
+				<CSV>
+"Zbiór"<Value style:style="rowheader" />, "WORK.SORTTEMPTABLESORTED";
+"Zmienna objaśniana"<Value style:style="rowheader" />, "price_quantile";
+"Liczba poziomów odpowiedzi"<Value style:style="rowheader" />, "4";
+"Model"<Value style:style="rowheader" />, "logit uogólniony";
+"Technika optymalizacji"<Value style:style="rowheader" />, "Newton-Raphson";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_002">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Label">
+					</Variable>
+					<Variable encoding="text" name="N">
+					</Variable>
+				</Variables>
+				<CSV>
+"Wczytano obserwacji"<Value style:style="rowheader" />, "170289";
+"Użyto obserwacji"<Value style:style="rowheader" />, "170289";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_003">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="OrderedValue">
+					</Variable>
+					<Variable encoding="text" name="Outcome">
+					</Variable>
+					<Variable encoding="text" name="Count">
+					</Variable>
+				</Variables>
+				<CSV>
+"1"<Value style:style="rowheader" />, "expensive", "42747";
+"2"<Value style:style="rowheader" />, "high-priced", "43008";
+"3"<Value style:style="rowheader" />, "low-cost", "41011";
+"4"<Value style:style="rowheader" />, "medium-priced", "43523";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_004">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Class">
+					</Variable>
+					<Variable encoding="text" name="Value">
+					</Variable>
+					<Variable encoding="text" name="designvar">
+					</Variable>
+					<Variable encoding="text" name="designvar_2">
+					</Variable>
+				</Variables>
+				<CSV>
+"room_type"<Value style:style="rowheader" />, "Entire home/apt"<Value style:style="rowheader" />, "0", " ";
+" "<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "1", " ";
+"host_is_superhost"<Value style:style="rowheader" />, "f"<Value style:style="rowheader" />, "0", " ";
+" "<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "1", " ";
+"instant_bookable"<Value style:style="rowheader" />, "f"<Value style:style="rowheader" />, "0", " ";
+" "<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "1", " ";
+"cancellation_policy"<Value style:style="rowheader" />, "flexible"<Value style:style="rowheader" />, "1", "0";
+" "<Value style:style="rowheader" />, "moderate"<Value style:style="rowheader" />, "0", "1";
+" "<Value style:style="rowheader" />, "strict_14+"<Value style:style="rowheader" />, "0", "0";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_005">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Reason">
+					</Variable>
+				</Variables>
+				<CSV>
+"Kryterium zbieżności (GCONV=1E-8) spełnione.";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_006">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Criterion">
+					</Variable>
+					<Variable encoding="text" name="Equals">
+					</Variable>
+					<Variable encoding="text" name="InterceptAndCovariates">
+					</Variable>
+				</Variables>
+				<CSV>
+"-2 log L"<Value style:style="rowheader" />, "=", "472057.15";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_007">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"97712.3940", "30", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_008">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Reason">
+					</Variable>
+				</Variables>
+				<CSV>
+"Kryterium zbieżności (GCONV=1E-8) spełnione.";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_009">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Criterion">
+					</Variable>
+					<Variable encoding="text" name="InterceptOnly">
+					</Variable>
+					<Variable encoding="text" name="InterceptAndCovariates">
+					</Variable>
+				</Variables>
+				<CSV>
+"AIC"<Value style:style="rowheader" />, "472063.15", "404499.49";
+"SC"<Value style:style="rowheader" />, "472093.29", "404559.76";
+"-2 log L"<Value style:style="rowheader" />, "472057.15", "404487.49";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_010">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="label1">
+					</Variable>
+					<Variable encoding="text" name="cvalue1">
+					</Variable>
+					<Variable encoding="text" name="label2">
+					</Variable>
+					<Variable encoding="text" name="cvalue2">
+					</Variable>
+				</Variables>
+				<CSV>
+"R-kwadrat"<Value style:style="rowheader" />, "0.3275", "Maksymalnie przeskalowane R-kwadrat"<Value style:style="rowheader" />, "0.3494";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_011">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Test">
+					</Variable>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"Iloraz wiarygod."<Value style:style="rowheader" />, "67569.6628", "3", "&lt;.0001";
+"Wynik punktowy"<Value style:style="rowheader" />, "62406.9443", "3", "&lt;.0001";
+"Wald"<Value style:style="rowheader" />, "45089.0907", "3", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_012">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"35035.1349", "27", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_013">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Reason">
+					</Variable>
+				</Variables>
+				<CSV>
+"Kryterium zbieżności (GCONV=1E-8) spełnione.";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_014">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Criterion">
+					</Variable>
+					<Variable encoding="text" name="InterceptOnly">
+					</Variable>
+					<Variable encoding="text" name="InterceptAndCovariates">
+					</Variable>
+				</Variables>
+				<CSV>
+"AIC"<Value style:style="rowheader" />, "472063.15", "380557.57";
+"SC"<Value style:style="rowheader" />, "472093.29", "380647.98";
+"-2 log L"<Value style:style="rowheader" />, "472057.15", "380539.57";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_015">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="label1">
+					</Variable>
+					<Variable encoding="text" name="cvalue1">
+					</Variable>
+					<Variable encoding="text" name="label2">
+					</Variable>
+					<Variable encoding="text" name="cvalue2">
+					</Variable>
+				</Variables>
+				<CSV>
+"R-kwadrat"<Value style:style="rowheader" />, "0.4157", "Maksymalnie przeskalowane R-kwadrat"<Value style:style="rowheader" />, "0.4435";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_016">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Test">
+					</Variable>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"Iloraz wiarygod."<Value style:style="rowheader" />, "91517.5830", "6", "&lt;.0001";
+"Wynik punktowy"<Value style:style="rowheader" />, "83983.4120", "6", "&lt;.0001";
+"Wald"<Value style:style="rowheader" />, "53338.4259", "6", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_017">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"16907.9034", "24", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_018">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Reason">
+					</Variable>
+				</Variables>
+				<CSV>
+"Kryterium zbieżności (GCONV=1E-8) spełnione.";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_019">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Criterion">
+					</Variable>
+					<Variable encoding="text" name="InterceptOnly">
+					</Variable>
+					<Variable encoding="text" name="InterceptAndCovariates">
+					</Variable>
+				</Variables>
+				<CSV>
+"AIC"<Value style:style="rowheader" />, "472063.15", "369013.08";
+"SC"<Value style:style="rowheader" />, "472093.29", "369133.62";
+"-2 log L"<Value style:style="rowheader" />, "472057.15", "368989.08";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_020">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="label1">
+					</Variable>
+					<Variable encoding="text" name="cvalue1">
+					</Variable>
+					<Variable encoding="text" name="label2">
+					</Variable>
+					<Variable encoding="text" name="cvalue2">
+					</Variable>
+				</Variables>
+				<CSV>
+"R-kwadrat"<Value style:style="rowheader" />, "0.4541", "Maksymalnie przeskalowane R-kwadrat"<Value style:style="rowheader" />, "0.4844";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_021">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Test">
+					</Variable>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"Iloraz wiarygod."<Value style:style="rowheader" />, "103068.076", "9", "&lt;.0001";
+"Wynik punktowy"<Value style:style="rowheader" />, "89550.6546", "9", "&lt;.0001";
+"Wald"<Value style:style="rowheader" />, "55948.2632", "9", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_022">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"7834.4499", "21", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_023">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Reason">
+					</Variable>
+				</Variables>
+				<CSV>
+"Kryterium zbieżności (GCONV=1E-8) spełnione.";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_024">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Criterion">
+					</Variable>
+					<Variable encoding="text" name="InterceptOnly">
+					</Variable>
+					<Variable encoding="text" name="InterceptAndCovariates">
+					</Variable>
+				</Variables>
+				<CSV>
+"AIC"<Value style:style="rowheader" />, "472063.15", "365537.38";
+"SC"<Value style:style="rowheader" />, "472093.29", "365688.05";
+"-2 log L"<Value style:style="rowheader" />, "472057.15", "365507.38";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_025">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="label1">
+					</Variable>
+					<Variable encoding="text" name="cvalue1">
+					</Variable>
+					<Variable encoding="text" name="label2">
+					</Variable>
+					<Variable encoding="text" name="cvalue2">
+					</Variable>
+				</Variables>
+				<CSV>
+"R-kwadrat"<Value style:style="rowheader" />, "0.4651", "Maksymalnie przeskalowane R-kwadrat"<Value style:style="rowheader" />, "0.4961";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_026">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Test">
+					</Variable>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"Iloraz wiarygod."<Value style:style="rowheader" />, "106549.779", "12", "&lt;.0001";
+"Wynik punktowy"<Value style:style="rowheader" />, "93871.3461", "12", "&lt;.0001";
+"Wald"<Value style:style="rowheader" />, "57669.8069", "12", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_027">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"4817.6839", "18", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_028">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Reason">
+					</Variable>
+				</Variables>
+				<CSV>
+"Kryterium zbieżności (GCONV=1E-8) spełnione.";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_029">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Criterion">
+					</Variable>
+					<Variable encoding="text" name="InterceptOnly">
+					</Variable>
+					<Variable encoding="text" name="InterceptAndCovariates">
+					</Variable>
+				</Variables>
+				<CSV>
+"AIC"<Value style:style="rowheader" />, "472063.15", "362187.43";
+"SC"<Value style:style="rowheader" />, "472093.29", "362368.24";
+"-2 log L"<Value style:style="rowheader" />, "472057.15", "362151.43";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_030">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="label1">
+					</Variable>
+					<Variable encoding="text" name="cvalue1">
+					</Variable>
+					<Variable encoding="text" name="label2">
+					</Variable>
+					<Variable encoding="text" name="cvalue2">
+					</Variable>
+				</Variables>
+				<CSV>
+"R-kwadrat"<Value style:style="rowheader" />, "0.4756", "Maksymalnie przeskalowane R-kwadrat"<Value style:style="rowheader" />, "0.5073";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_031">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Test">
+					</Variable>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"Iloraz wiarygod."<Value style:style="rowheader" />, "109905.726", "15", "&lt;.0001";
+"Wynik punktowy"<Value style:style="rowheader" />, "95659.8156", "15", "&lt;.0001";
+"Wald"<Value style:style="rowheader" />, "57823.5304", "15", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_032">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"1569.3049", "15", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_033">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Reason">
+					</Variable>
+				</Variables>
+				<CSV>
+"Kryterium zbieżności (GCONV=1E-8) spełnione.";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_034">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Criterion">
+					</Variable>
+					<Variable encoding="text" name="InterceptOnly">
+					</Variable>
+					<Variable encoding="text" name="InterceptAndCovariates">
+					</Variable>
+				</Variables>
+				<CSV>
+"AIC"<Value style:style="rowheader" />, "472063.15", "361610.60";
+"SC"<Value style:style="rowheader" />, "472093.29", "361821.55";
+"-2 log L"<Value style:style="rowheader" />, "472057.15", "361568.60";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_035">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="label1">
+					</Variable>
+					<Variable encoding="text" name="cvalue1">
+					</Variable>
+					<Variable encoding="text" name="label2">
+					</Variable>
+					<Variable encoding="text" name="cvalue2">
+					</Variable>
+				</Variables>
+				<CSV>
+"R-kwadrat"<Value style:style="rowheader" />, "0.4773", "Maksymalnie przeskalowane R-kwadrat"<Value style:style="rowheader" />, "0.5092";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_036">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Test">
+					</Variable>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"Iloraz wiarygod."<Value style:style="rowheader" />, "110488.551", "18", "&lt;.0001";
+"Wynik punktowy"<Value style:style="rowheader" />, "96824.0953", "18", "&lt;.0001";
+"Wald"<Value style:style="rowheader" />, "57313.1330", "18", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_037">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"960.4244", "12", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_038">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Reason">
+					</Variable>
+				</Variables>
+				<CSV>
+"Kryterium zbieżności (GCONV=1E-8) spełnione.";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_039">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Criterion">
+					</Variable>
+					<Variable encoding="text" name="InterceptOnly">
+					</Variable>
+					<Variable encoding="text" name="InterceptAndCovariates">
+					</Variable>
+				</Variables>
+				<CSV>
+"AIC"<Value style:style="rowheader" />, "472063.15", "361001.41";
+"SC"<Value style:style="rowheader" />, "472093.29", "361272.63";
+"-2 log L"<Value style:style="rowheader" />, "472057.15", "360947.41";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_040">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="label1">
+					</Variable>
+					<Variable encoding="text" name="cvalue1">
+					</Variable>
+					<Variable encoding="text" name="label2">
+					</Variable>
+					<Variable encoding="text" name="cvalue2">
+					</Variable>
+				</Variables>
+				<CSV>
+"R-kwadrat"<Value style:style="rowheader" />, "0.4792", "Maksymalnie przeskalowane R-kwadrat"<Value style:style="rowheader" />, "0.5112";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_041">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Test">
+					</Variable>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"Iloraz wiarygod."<Value style:style="rowheader" />, "111109.745", "24", "&lt;.0001";
+"Wynik punktowy"<Value style:style="rowheader" />, "97352.7451", "24", "&lt;.0001";
+"Wald"<Value style:style="rowheader" />, "57542.9756", "24", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_042">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"341.7571", "6", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_043">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Reason">
+					</Variable>
+				</Variables>
+				<CSV>
+"Kryterium zbieżności (GCONV=1E-8) spełnione.";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_044">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Criterion">
+					</Variable>
+					<Variable encoding="text" name="InterceptOnly">
+					</Variable>
+					<Variable encoding="text" name="InterceptAndCovariates">
+					</Variable>
+				</Variables>
+				<CSV>
+"AIC"<Value style:style="rowheader" />, "472063.15", "360756.42";
+"SC"<Value style:style="rowheader" />, "472093.29", "361057.78";
+"-2 log L"<Value style:style="rowheader" />, "472057.15", "360696.42";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_045">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="label1">
+					</Variable>
+					<Variable encoding="text" name="cvalue1">
+					</Variable>
+					<Variable encoding="text" name="label2">
+					</Variable>
+					<Variable encoding="text" name="cvalue2">
+					</Variable>
+				</Variables>
+				<CSV>
+"R-kwadrat"<Value style:style="rowheader" />, "0.4800", "Maksymalnie przeskalowane R-kwadrat"<Value style:style="rowheader" />, "0.5120";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_046">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Test">
+					</Variable>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"Iloraz wiarygod."<Value style:style="rowheader" />, "111360.737", "27", "&lt;.0001";
+"Wynik punktowy"<Value style:style="rowheader" />, "97518.1748", "27", "&lt;.0001";
+"Wald"<Value style:style="rowheader" />, "57548.9554", "27", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_047">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"90.6764", "3", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_048">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Reason">
+					</Variable>
+				</Variables>
+				<CSV>
+"Kryterium zbieżności (GCONV=1E-8) spełnione.";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_049">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Criterion">
+					</Variable>
+					<Variable encoding="text" name="InterceptOnly">
+					</Variable>
+					<Variable encoding="text" name="InterceptAndCovariates">
+					</Variable>
+				</Variables>
+				<CSV>
+"AIC"<Value style:style="rowheader" />, "472063.15", "360671.73";
+"SC"<Value style:style="rowheader" />, "472093.29", "361003.22";
+"-2 log L"<Value style:style="rowheader" />, "472057.15", "360605.73";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_050">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="label1">
+					</Variable>
+					<Variable encoding="text" name="cvalue1">
+					</Variable>
+					<Variable encoding="text" name="label2">
+					</Variable>
+					<Variable encoding="text" name="cvalue2">
+					</Variable>
+				</Variables>
+				<CSV>
+"R-kwadrat"<Value style:style="rowheader" />, "0.4803", "Maksymalnie przeskalowane R-kwadrat"<Value style:style="rowheader" />, "0.5123";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_051">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Test">
+					</Variable>
+					<Variable encoding="text" name="ChiSq">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"Iloraz wiarygod."<Value style:style="rowheader" />, "111451.425", "30", "&lt;.0001";
+"Wynik punktowy"<Value style:style="rowheader" />, "97712.3940", "30", "&lt;.0001";
+"Wald"<Value style:style="rowheader" />, "57637.6627", "30", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_052">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Step">
+					</Variable>
+					<Variable encoding="text" name="EffectEntered">
+					</Variable>
+					<Variable encoding="text" name="EffectRemoved">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="NumberInModel">
+					</Variable>
+					<Variable encoding="text" name="ScoreChiSq">
+					</Variable>
+					<Variable encoding="text" name="WaldChiSq">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"1"<Value style:style="rowheader" />, "room_type"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "3", "1", "62406.9443", " ", "&lt;.0001";
+"2"<Value style:style="rowheader" />, "accommodates"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "3", "2", "20797.0933", " ", "&lt;.0001";
+"3"<Value style:style="rowheader" />, "reviews_per_month"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "3", "3", "8771.2518", " ", "&lt;.0001";
+"4"<Value style:style="rowheader" />, "bathrooms"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "3", "4", "3395.6583", " ", "&lt;.0001";
+"5"<Value style:style="rowheader" />, "distance"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "3", "5", "3285.8490", " ", "&lt;.0001";
+"6"<Value style:style="rowheader" />, "bathrooms*room_type"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "3", "6", "614.5323", " ", "&lt;.0001";
+"7"<Value style:style="rowheader" />, "cancellation_policy"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "6", "7", "619.5142", " ", "&lt;.0001";
+"8"<Value style:style="rowheader" />, "instant_bookable"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "3", "8", "251.1850", " ", "&lt;.0001";
+"9"<Value style:style="rowheader" />, "host_is_superhost"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "3", "9", "90.6764", " ", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_053">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Effect">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="WaldChiSq">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"reviews_per_month"<Value style:style="rowheader" />, "3", "5695.7346", "&lt;.0001";
+"distance"<Value style:style="rowheader" />, "3", "3077.3550", "&lt;.0001";
+"accommodates"<Value style:style="rowheader" />, "3", "8045.3227", "&lt;.0001";
+"bathrooms"<Value style:style="rowheader" />, "3", "3681.3784", "&lt;.0001";
+"room_type"<Value style:style="rowheader" />, "3", "1225.4769", "&lt;.0001";
+"host_is_superhost"<Value style:style="rowheader" />, "3", "90.6301", "&lt;.0001";
+"instant_bookable"<Value style:style="rowheader" />, "3", "242.1544", "&lt;.0001";
+"cancellation_policy"<Value style:style="rowheader" />, "6", "618.2518", "&lt;.0001";
+"bathrooms*room_type"<Value style:style="rowheader" />, "3", "535.5238", "&lt;.0001";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_054">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Variable">
+					</Variable>
+					<Variable encoding="text" name="GenericClassValue">
+					</Variable>
+					<Variable encoding="text" name="Response">
+					</Variable>
+					<Variable encoding="text" name="DF">
+					</Variable>
+					<Variable encoding="text" name="Estimate">
+					</Variable>
+					<Variable encoding="text" name="StdErr">
+					</Variable>
+					<Variable encoding="text" name="WaldChiSq">
+					</Variable>
+					<Variable encoding="text" name="ProbChiSq">
+					</Variable>
+				</Variables>
+				<CSV>
+"Intercept"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1", "-0.6452", "0.0542", "141.6045", "&lt;.0001";
+"Intercept"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1", "0.6343", "0.0532", "142.3753", "&lt;.0001";
+"Intercept"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1", "0.9861", "0.0549", "322.2151", "&lt;.0001";
+"reviews_per_month"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1", "-0.4709", "0.00642", "5376.2563", "&lt;.0001";
+"reviews_per_month"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1", "-0.2211", "0.00476", "2156.0376", "&lt;.0001";
+"reviews_per_month"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1", "-0.0865", "0.00385", "504.2147", "&lt;.0001";
+"distance"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1", "-0.0652", "0.00122", "2848.0774", "&lt;.0001";
+"distance"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1", "-0.0411", "0.000998", "1697.0194", "&lt;.0001";
+"distance"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1", "-0.0270", "0.000834", "1047.3532", "&lt;.0001";
+"accommodates"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1", "0.6546", "0.00808", "6563.7570", "&lt;.0001";
+"accommodates"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1", "0.4715", "0.00778", "3675.3247", "&lt;.0001";
+"accommodates"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1", "0.2663", "0.00762", "1222.1894", "&lt;.0001";
+"bathrooms"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1", "1.0518", "0.0464", "514.3754", "&lt;.0001";
+"bathrooms"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1", "0.2916", "0.0464", "39.4346", "&lt;.0001";
+"bathrooms"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1", "-0.1178", "0.0487", "5.8508", "0.0156";
+"room_type"<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1", "-2.0471", "0.0676", "917.2231", "&lt;.0001";
+"room_type"<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1", "-2.0858", "0.0641", "1058.1752", "&lt;.0001";
+"room_type"<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1", "-1.4881", "0.0591", "634.0157", "&lt;.0001";
+"host_is_superhost"<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1", "-0.00454", "0.0240", "0.0357", "0.8501";
+"host_is_superhost"<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1", "0.1106", "0.0206", "28.7942", "&lt;.0001";
+"host_is_superhost"<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1", "0.1304", "0.0181", "51.8200", "&lt;.0001";
+"instant_bookable"<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1", "-0.2741", "0.0199", "189.6099", "&lt;.0001";
+"instant_bookable"<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1", "-0.2541", "0.0176", "207.5129", "&lt;.0001";
+"instant_bookable"<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1", "-0.1651", "0.0156", "111.5831", "&lt;.0001";
+"cancellation_policy"<Value style:style="rowheader" />, "flexible"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1", "-0.2324", "0.0234", "98.5879", "&lt;.0001";
+"cancellation_policy"<Value style:style="rowheader" />, "flexible"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1", "-0.1364", "0.0208", "42.7893", "&lt;.0001";
+"cancellation_policy"<Value style:style="rowheader" />, "flexible"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1", "0.0111", "0.0185", "0.3640", "0.5463";
+"cancellation_policy"<Value style:style="rowheader" />, "moderate"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1", "-0.4740", "0.0233", "412.8207", "&lt;.0001";
+"cancellation_policy"<Value style:style="rowheader" />, "moderate"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1", "-0.1998", "0.0205", "95.1863", "&lt;.0001";
+"cancellation_policy"<Value style:style="rowheader" />, "moderate"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1", "-0.00289", "0.0185", "0.0244", "0.8759";
+"bathrooms*room_type"<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1", "-0.9424", "0.0558", "285.7321", "&lt;.0001";
+"bathrooms*room_type"<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1", "-0.5151", "0.0562", "83.8754", "&lt;.0001";
+"bathrooms*room_type"<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1", "-0.0453", "0.0530", "0.7323", "0.3921";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_055">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Effect">
+					</Variable>
+					<Variable encoding="text" name="Response">
+					</Variable>
+					<Variable encoding="text" name="OddsRatioEst">
+					</Variable>
+					<Variable encoding="text" name="LowerCL">
+					</Variable>
+					<Variable encoding="text" name="UpperCL">
+					</Variable>
+				</Variables>
+				<CSV>
+"reviews_per_month"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "0.624", "0.617", "0.632";
+"reviews_per_month"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "0.802", "0.794", "0.809";
+"reviews_per_month"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "0.917", "0.910", "0.924";
+"distance"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "0.937", "0.935", "0.939";
+"distance"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "0.960", "0.958", "0.962";
+"distance"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "0.973", "0.972", "0.975";
+"accommodates"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1.924", "1.894", "1.955";
+"accommodates"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1.602", "1.578", "1.627";
+"accommodates"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1.305", "1.286", "1.325";
+"host_is_superhost   t od f"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "0.995", "0.950", "1.043";
+"host_is_superhost   t od f"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "1.117", "1.073", "1.163";
+"host_is_superhost   t od f"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1.139", "1.100", "1.180";
+"instant_bookable    t od f"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "0.760", "0.731", "0.790";
+"instant_bookable    t od f"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "0.776", "0.749", "0.803";
+"instant_bookable    t od f"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "0.848", "0.822", "0.874";
+"cancellation_policy flexible od strict_14+"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "0.793", "0.757", "0.830";
+"cancellation_policy flexible od strict_14+"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "0.873", "0.838", "0.909";
+"cancellation_policy flexible od strict_14+"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "1.011", "0.975", "1.048";
+"cancellation_policy moderate od strict_14+"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "0.623", "0.595", "0.652";
+"cancellation_policy moderate od strict_14+"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "0.819", "0.787", "0.852";
+"cancellation_policy moderate od strict_14+"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "0.997", "0.962", "1.034";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_056">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Effect">
+					</Variable>
+					<Variable encoding="text" name="OddsRatioEst">
+					</Variable>
+					<Variable encoding="text" name="LowerCL">
+					</Variable>
+					<Variable encoding="text" name="UpperCL">
+					</Variable>
+				</Variables>
+				<CSV>
+"price_quantile expensive: bathrooms przy room_type=Entire home/apt"<Value style:style="rowheader" />, "2.863", "2.614", "3.135";
+"price_quantile high-priced: bathrooms przy room_type=Entire home/apt"<Value style:style="rowheader" />, "1.339", "1.222", "1.466";
+"price_quantile medium-priced: bathrooms przy room_type=Entire home/apt"<Value style:style="rowheader" />, "0.889", "0.808", "0.978";
+"price_quantile expensive: bathrooms przy room_type=Private room"<Value style:style="rowheader" />, "1.116", "1.048", "1.188";
+"price_quantile high-priced: bathrooms przy room_type=Private room"<Value style:style="rowheader" />, "0.800", "0.750", "0.853";
+"price_quantile medium-priced: bathrooms przy room_type=Private room"<Value style:style="rowheader" />, "0.849", "0.814", "0.887";
+"price_quantile expensive: room_type Private room od Entire home/apt przy bathrooms=1.3237"<Value style:style="rowheader" />, "0.037", "0.035", "0.039";
+"price_quantile high-priced: room_type Private room od Entire home/apt przy bathrooms=1.3237"<Value style:style="rowheader" />, "0.063", "0.060", "0.066";
+"price_quantile medium-priced: room_type Private room od Entire home/apt przy bathrooms=1.3237"<Value style:style="rowheader" />, "0.213", "0.203", "0.223";</CSV>
+			</EmbeddedData>
+		</IQData>
+		<IQData type="2DEmbedded" name="ODSResult_NaFNf84PRmQyXaYz_057">
+			<EmbeddedData>
+				<Variables>
+					<Variable encoding="text" name="Parameter">
+					</Variable>
+					<Variable encoding="text" name="GenericClassValue">
+					</Variable>
+					<Variable encoding="text" name="Response">
+					</Variable>
+					<Variable encoding="text" name="Estimate">
+					</Variable>
+					<Variable encoding="text" name="LowerCL">
+					</Variable>
+					<Variable encoding="text" name="UpperCL">
+					</Variable>
+				</Variables>
+				<CSV>
+"Intercept"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "-0.6452", "-0.7514", "-0.5389";
+"Intercept"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "0.6343", "0.5301", "0.7385";
+"Intercept"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "0.9861", "0.8784", "1.0938";
+"reviews_per_month"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "-0.4709", "-0.4835", "-0.4583";
+"reviews_per_month"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "-0.2211", "-0.2305", "-0.2118";
+"reviews_per_month"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "-0.0865", "-0.0941", "-0.0790";
+"distance"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "-0.0652", "-0.0676", "-0.0628";
+"distance"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "-0.0411", "-0.0431", "-0.0391";
+"distance"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "-0.0270", "-0.0286", "-0.0253";
+"accommodates"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "0.6546", "0.6387", "0.6704";
+"accommodates"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "0.4715", "0.4563", "0.4868";
+"accommodates"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "0.2663", "0.2514", "0.2812";
+"bathrooms"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "1.0518", "0.9609", "1.1427";
+"bathrooms"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "0.2916", "0.2006", "0.3827";
+"bathrooms"<Value style:style="rowheader" />, " "<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "-0.1178", "-0.2132", "-0.0223";
+"room_type"<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "-2.0471", "-2.1796", "-1.9146";
+"room_type"<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "-2.0858", "-2.2115", "-1.9602";
+"room_type"<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "-1.4881", "-1.6040", "-1.3723";
+"host_is_superhost"<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "-0.00454", "-0.0516", "0.0426";
+"host_is_superhost"<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "0.1106", "0.0702", "0.1509";
+"host_is_superhost"<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "0.1304", "0.0949", "0.1659";
+"instant_bookable"<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "-0.2741", "-0.3131", "-0.2351";
+"instant_bookable"<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "-0.2541", "-0.2886", "-0.2195";
+"instant_bookable"<Value style:style="rowheader" />, "t"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "-0.1651", "-0.1958", "-0.1345";
+"cancellation_policy"<Value style:style="rowheader" />, "flexible"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "-0.2324", "-0.2782", "-0.1865";
+"cancellation_policy"<Value style:style="rowheader" />, "flexible"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "-0.1364", "-0.1772", "-0.0955";
+"cancellation_policy"<Value style:style="rowheader" />, "flexible"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "0.0111", "-0.0251", "0.0473";
+"cancellation_policy"<Value style:style="rowheader" />, "moderate"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "-0.4740", "-0.5197", "-0.4283";
+"cancellation_policy"<Value style:style="rowheader" />, "moderate"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "-0.1998", "-0.2399", "-0.1596";
+"cancellation_policy"<Value style:style="rowheader" />, "moderate"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "-0.00289", "-0.0391", "0.0333";
+"bathrooms*room_type"<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "expensive"<Value style:style="rowheader" />, "-0.9424", "-1.0517", "-0.8331";
+"bathrooms*room_type"<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "high-priced"<Value style:style="rowheader" />, "-0.5151", "-0.6253", "-0.4048";
+"bathrooms*room_type"<Value style:style="rowheader" />, "Private room"<Value style:style="rowheader" />, "medium-priced"<Value style:style="rowheader" />, "-0.0453", "-0.1492", "0.0585";</CSV>
+			</EmbeddedData>
+		</IQData>
+	</Data>
+	<style:CSSScheme file="Raport SAS-owy - Kod dla Regresja logistyczna  (12)_files/HTMLBlue.css" name="HTMLBlue"></style:CSSScheme>
+</SASReport>
